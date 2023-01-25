@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.9"
+
+[dev-packages]
+# code quality
+flake8 = "~=3.8.4"
+flake8-bugbear = "21.4.3"
+# debugging
+debugpy = "*"
+faker = "==13.3.0"
+black = "==22.3.0"

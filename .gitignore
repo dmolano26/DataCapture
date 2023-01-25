@@ -1,0 +1,14 @@
+# Pyre type checker
+.pyre/
+.vscode/
+
+# Environments
+.env
+.venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
